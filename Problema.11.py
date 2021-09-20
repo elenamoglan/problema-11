@@ -53,7 +53,7 @@ if n<10:
     print(k)
     print(f'l)componenta de valoare minimă din tabloul respectiv inlocuita cu prima componentă a acestuia: ', end='')
     k1=l[:]
-    k1[l.index(min(k))] = k1[0]
+    k1[k1.index(min(k1))]=k1[0]
     print(k1)
     print(f'm)tablou nou, format doar din componentele pare ale tabloului introdus de la tastatură: ', d)
     print(f'n)tablou nou, format doar din componentele divizibile cu 3 ale tabloului introdus de la tastatură: ', end='')
